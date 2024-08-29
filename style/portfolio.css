@@ -1,0 +1,77 @@
+
+/* GENERAL */
+
+h1{
+    font-family: 'Montserrat', Arial, sans-serif;   
+    font-size: 2.5em;
+    font-weight : 500;
+    color: #EB5E28;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+/* SECTION PROJETS */
+
+.projet{
+    background-color: #FFFCF2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projet_alt{
+    background-color: #403d39;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projet img, .projet_alt img{
+    width: 40%;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.bloc_projet{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.texte_projet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+}
+
+.texte_projet h2{
+    font-family: 'Montserrat', Arial, sans-serif;   
+    font-size: 1.5em;
+    font-weight : 500;
+    color: #EB5E28;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texte_projet h3{
+    font-family: 'Montserrat-alternates', Arial, sans-serif;   
+    font-size: 1.2em;
+    font-weight : 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.texte_projet p{
+    margin-bottom: 40px;
+}
+
+.projet_alt h3, .projet_alt p{
+    color: #FFFCF2;
+}
+

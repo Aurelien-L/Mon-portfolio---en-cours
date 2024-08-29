@@ -1,0 +1,106 @@
+/* GENERAL */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Montserrat', Arial, sans-serif;   
+    font-size: 2.8em;
+    font-weight : 500;
+    color: #EB5E28;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+/* SECTION FORMULAIRE */
+
+
+.bloc_formulaire{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.bloc_formulaire img {
+    width: 100%;
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire textarea{
+    resize: none;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.formulaire label + input{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.formulaire label{
+    margin-bottom: 10px;
+    font-family: 'Montserrat-alternates', Arial, sans-serif;   
+    font-size: 1.2em;
+}
+
+input[type="submit"]{
+    width: 20%;
+    position: relative;
+    left: 80%;
+}
+
+
+
+
+/* SECTION RESEAUX SOCIAUX */
+
+.bloc_RS{
+    width: 100%;
+    background-color: #252422;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bloc_RS h2{
+    font-family: 'Montserrat', Arial, sans-serif;   
+    font-size: 2em;
+    font-weight : 500;
+    color: #EB5E28;
+    margin-bottom: 30px;
+}
+
+.liens_RS{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.liens_RS img{
+    width: 60px;
+}
+

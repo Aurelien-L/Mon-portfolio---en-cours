@@ -1,0 +1,147 @@
+
+/* SUPPRIMER COMPORTEMENT DEFAUT NAVIGATEUR*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: inherit;
+    color: inherit;
+    font: inherit;
+  }
+
+
+  /* Règles générales affichage*/
+
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+  /* GENERAL */
+
+body{
+  background-color: #FFFCF2;
+  font-family: 'Montserrat-alternates', Arial, sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFCF2;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+a:hover{
+  color: #EB5E28;
+}
+
+p{
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+em{
+  color: #EB5E28;
+}
+
+
+.bouton_perso{
+  font-size: 1.3em;
+  color: #FFFCF2;
+  background-color: #EB5E28;
+  padding: 10px 15px 10px 15px;
+  border-radius: 30px;
+}
+
+.bouton_perso:hover{
+  color: #EB5E28;
+  background-color: #CCC5B9;
+  transition: all 200ms linear;
+}
+
+
+
+
+/*HEADER */
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252422;
+  padding: 20px 0px 20px 0px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+header nav{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+
+
+/* FOOTER */
+
+
+footer{
+  background-color: #252422;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc_footer{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.bloc_footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+}
+
+footer h2{
+  font-family: 'Montserrat', Arial, sans-serif;   
+  font-size: 1.2em;
+  font-weight : 400;
+  color: #EB5E28;
+}
+
+footer h3{
+  font-family: 'Montserrat-alternates', Arial, sans-serif;   
+  font-size: 1em;
+  color: #FFFCF2;
+}
+
+.logo_RS{
+  width: 30px;
+}
